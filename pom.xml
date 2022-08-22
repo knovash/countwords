@@ -11,6 +11,9 @@
 
     <properties>
         <apache-logger-version>2.18.0</apache-logger-version>
+        <apache-commonsio-version>2.11.0</apache-commonsio-version>
+        <apache-commonslang3-version>3.12.0</apache-commonslang3-version>
+        <apache-compilerplugin-version>3.10.1</apache-compilerplugin-version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
@@ -27,12 +30,12 @@
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
-            <version>2.11.0</version>
+            <version>${apache-commonsio-version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
-            <version>3.12.0</version>
+            <version>${apache-commonslang3-version}</version>
         </dependency>
 
     </dependencies>
@@ -41,7 +44,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.10.1</version>
+                <version>${apache-compilerplugin-version}</version>
                 <configuration>
                     <source>11</source>
                     <target>11</target>
