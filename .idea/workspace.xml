@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4192f36d-b00f-48c4-8a09-cefdbd9a21be" name="Changes" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/Log.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/Log.log" afterDir="false" />
@@ -12,6 +13,10 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/countwords/FileTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/countwords/FileTool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/countwords/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/countwords/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test1.txt" beforeDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/Log.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/Log.log" afterDir="false" />
+>>>>>>> 14ced835e2a4d58c9b8c82b858277fe07e7dd90f
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,12 +50,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Konstantin/IdeaProjects/countwords&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/sync/IdeaProjects/text",
+    "settings.editor.selected.configurable": "editor.preferences.completion"
+>>>>>>> 14ced835e2a4d58c9b8c82b858277fe07e7dd90f
   }
 }</component>
   <component name="RecentsManager">
