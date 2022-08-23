@@ -5,15 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.solvd</groupId>
-    <artifactId>text</artifactId>
+    <artifactId>gettext</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
 
     <properties>
         <apache-logger-version>2.18.0</apache-logger-version>
-        <apache-commonsio-version>2.11.0</apache-commonsio-version>
-        <apache-commonslang3-version>3.12.0</apache-commonslang3-version>
-        <apache-compilerplugin-version>3.10.1</apache-compilerplugin-version>
+        <maven.compiler.source>18</maven.compiler.source>
+        <maven.compiler.target>18</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
@@ -30,26 +28,14 @@
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
-            <version>${apache-commonsio-version}</version>
+            <version>2.11.0</version>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
-            <version>${apache-commonslang3-version}</version>
+            <version>3.12.0</version>
         </dependency>
 
     </dependencies>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>${apache-compilerplugin-version}</version>
-                <configuration>
-                    <source>11</source>
-                    <target>11</target>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+
 </project>
