@@ -4,9 +4,12 @@ import org.apache.commons.io.FileUtils;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.URL;
 import java.util.List;
 
 public class FileTool {
+
+    URL resource = getClass().getClassLoader().getResource("file.txt");
 
     public static String getString(String fileName) throws IOException {
         File file = new File(fileName);

@@ -12,6 +12,8 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
+
+
         String fileName = "test.txt";
         if (args.length > 0) {
             System.out.println("get text from file: " + args);
