@@ -2,4 +2,4 @@
 target
 log
 *.iml
-*.txt
+/*.txt
